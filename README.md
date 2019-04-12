@@ -3,6 +3,10 @@ Ros pyminitaur is a ros package containing ros nodes to interact with the minita
 
 You will first need to install and run the CommandRobotRosXY example avalaible [here](https://gitlab.inria.fr/resibots/minitaur_sdk.git)
 
+Clone this repository and run :
+
+``git submodule update --init --recursive``
+
 ## What nodes are availables ?
 
 * ``` cmd_minitaur_simple.py ```
