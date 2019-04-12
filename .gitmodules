@@ -1,0 +1,6 @@
+[submodule "pycontrollers"]
+	path = pycontrollers
+	url = https://github.com/resibots/pycontrollers.git
+[submodule "script/pycontrollers"]
+	path = script/pycontrollers
+	url = https://github.com/resibots/pycontrollers.git
