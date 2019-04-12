@@ -62,8 +62,8 @@ For one leg, one signal from controller.py is the x cartesian command and anothe
 
 You can see below a graphical overview of how it can be used with [pyite](https://gitlab.inria.fr/resibots/pyite.git)  :
 
-![usecase1](cmd_minitaur_xy.jpg)
+![usecase1](miscs/cmd_minitaur_xy.jpg)
 
 This node can also be used with ``` test_maps.py ```
 
-![usecase2](cmd_minitaur_xy2.jpg)
+![usecase2](miscs/cmd_minitaur_xy2.jpg)
