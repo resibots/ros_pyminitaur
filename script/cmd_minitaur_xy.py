@@ -162,7 +162,7 @@ def talker():
 		default_ctrl = [aX, 0.1, d, aY, 0.0, d,aX, 0.6, d,aY, 0.5, d,aX, 0.6, d,aY, 0.5, d,aX,0.1,d,aY, 0.0, d]
 
 	ctrl = default_ctrl
-	episode_duration = 5
+	episode_duration = 2
 	mode = 0
 
 	curr_distance = 0
@@ -170,16 +170,7 @@ def talker():
 	controller = Controller(ctrl,1000)
 
 	while not rospy.is_shutdown():
-		# print("mode, ", mode)
-		# print("ctrl, ", ctrl)
-		# print("episode_duration ", episode_duration)
 
-		#Load data from parameters if defined
-		# ctrl = rospy.get_param('ctrl', default_ctrl)
-		# episode_duration = rospy.get_param('duration', 5)
-		# mode = rospy.get_param('mode', 0)
-		# episode_duration = 5
-		# mode = 1
 		#Create cmd  message
 		cmd_msg = Float64MultiArray()
 		dist_msg = Float64()
